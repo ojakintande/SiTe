@@ -40,7 +40,8 @@ To integrate SiTe into your own interpretability pipeline:
     source("scripts/site_engine.R")
     site_results <- calculate_site_significance(model, data, alpha = 0.05)
     ```
-#
+##
+
 ## 6. Citation
 This work is currently under review for **NeurIPS 2026**. Please cite as:
 > [Awaiting official proceedings information]
