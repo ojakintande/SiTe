@@ -1,0 +1,2 @@
+Dataset,N_Samples,N_Pixels,N_True_Pixels,N_Significant,SiTe_Power,Stability,SHAP_FAIR,SiTe_FAIR,FAIR_Improvement_Pct,Class_Balance
+MNIST (3 vs 8),13966,784,50,9,0,0.066666667,0.96,1,4.166666667,7141/6825

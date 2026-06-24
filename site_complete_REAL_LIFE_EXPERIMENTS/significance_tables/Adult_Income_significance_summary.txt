@@ -1,0 +1,46 @@
+Feature Significance Summary: Adult Income
+Generated on 2026-05-09 14:18:10
+================================================================================
+
+Total Features: 55
+Significant in SiTe: 23
+True Features Significant: 5/5
+Top 10 Features by SiTe Score:
+--------------------------------------------------------------------------------
+Rank  Feature                        Sig   True  SHAP_Rank  SiTe_Score  
+--------------------------------------------------------------------------------
+1     marital-status_ Marrie...      ***   [T]   5          1.0617      
+2     hours-per-week                 ***   [T]   6          0.3870      
+3     occupation_ Exec-manag...      ***         7          0.3767      
+4     marital-status_ Never-...      ***   [T]   10         0.3750      
+5     age                            ***   [T]   2          0.3414      
+6     education-num                  ***   [T]   31         0.3175      
+7     capital-gain                   ***         21         0.1944      
+8     occupation_ Prof-speci...      ***         24         0.1649      
+9     relationship_ Not-in-f...      ***         23         0.1576      
+10    capital-loss                   ***         22         0.1427      
+Significant Features:
+--------------------------------------------------------------------------------
+1. marital-status_ Married-civ-spouse [T]
+2. hours-per-week [T]
+3. occupation_ Exec-managerial 
+4. marital-status_ Never-married [T]
+5. age [T]
+6. education-num [T]
+7. capital-gain 
+8. occupation_ Prof-specialty 
+9. relationship_ Not-in-family 
+10. capital-loss 
+11. education_ HS-grad 
+12. education_ Some-college 
+13. sex_ Male 
+14. education_ Bachelors 
+15. occupation_ Craft-repair 
+16. relationship_ Wife 
+17. relationship_ Own-child 
+18. relationship_ Unmarried 
+19. occupation_ Sales 
+20. occupation_ Other-service 
+21. workclass_ State-gov 
+22. workclass_ Private 
+23. workclass_ Self-emp-not-inc 

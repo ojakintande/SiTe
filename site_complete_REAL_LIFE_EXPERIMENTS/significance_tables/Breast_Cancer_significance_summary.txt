@@ -1,0 +1,35 @@
+Feature Significance Summary: Breast Cancer
+Generated on 2026-05-09 14:18:15
+================================================================================
+
+Total Features: 30
+Significant in SiTe: 12
+True Features Significant: 8/8
+Top 10 Features by SiTe Score:
+--------------------------------------------------------------------------------
+Rank  Feature                        Sig   True  SHAP_Rank  SiTe_Score  
+--------------------------------------------------------------------------------
+1     feature_28                     ***         9          0.7880      
+2     feature_08                     ***         17         0.6537      
+3     feature_24                     ***   [T]   10         0.5560      
+4     feature_07                     ***         11         0.4293      
+5     feature_23                     ***   [T]   21         0.3338      
+6     feature_21                     ***   [T]   18         0.2677      
+7     feature_27                     ***         4          0.2231      
+8     feature_01                     ***   [T]   2          0.1414      
+9     feature_14                     ***   [T]   27         0.1289      
+10    feature_03                     ***   [T]   19         0.0833      
+Significant Features:
+--------------------------------------------------------------------------------
+1. feature_28 
+2. feature_08 
+3. feature_24 [T]
+4. feature_07 
+5. feature_23 [T]
+6. feature_21 [T]
+7. feature_27 
+8. feature_01 [T]
+9. feature_14 [T]
+10. feature_03 [T]
+11. feature_04 [T]
+12. feature_22 [T]

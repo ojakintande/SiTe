@@ -1,0 +1,29 @@
+Feature Significance Summary: Boston Housing
+Generated on 2026-05-09 14:18:12
+================================================================================
+
+Total Features: 13
+Significant in SiTe: 6
+True Features Significant: 3/4
+Top 10 Features by SiTe Score:
+--------------------------------------------------------------------------------
+Rank  Feature                        Sig   True  SHAP_Rank  SiTe_Score  
+--------------------------------------------------------------------------------
+1     LSTAT                          ***   [T]   3          42.5658     
+2     RM                             ***   [T]   12         24.1442     
+3     CRIM                           ***         9          5.9404      
+4     DIS                            ***         13         1.1873      
+5     NOX                            ***         5          0.8384      
+6     PTRATIO                        ***   [T]   2          0.7387      
+7     CHAS                                       7          -0.0000     
+8     ZN                                         4          -0.0000     
+9     RAD                                        11         -0.0000     
+10    TAX                                        10         -0.0000     
+Significant Features:
+--------------------------------------------------------------------------------
+1. LSTAT [T]
+2. RM [T]
+3. CRIM 
+4. DIS 
+5. NOX 
+6. PTRATIO [T]

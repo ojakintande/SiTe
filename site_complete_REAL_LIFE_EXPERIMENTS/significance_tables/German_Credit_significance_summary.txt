@@ -1,0 +1,44 @@
+Feature Significance Summary: German Credit
+Generated on 2026-05-09 14:18:14
+================================================================================
+
+Total Features: 48
+Significant in SiTe: 21
+True Features Significant: 5/7
+Top 10 Features by SiTe Score:
+--------------------------------------------------------------------------------
+Rank  Feature                        Sig   True  SHAP_Rank  SiTe_Score  
+--------------------------------------------------------------------------------
+1     checking_status_A14            ***   [T]   2          0.5496      
+2     duration                       ***   [T]   7          0.4268      
+3     credit_history_A34             ***   [T]   11         0.3359      
+4     other_payment_plans_A143       ***         23         0.2573      
+5     employment_A72                 ***         24         0.2110      
+6     employment_A75                 ***         32         0.1903      
+7     housing_A153                   ***         14         0.1635      
+8     purpose_A49                    ***         17         0.1388      
+9     housing_A152                   ***   [T]   29         0.1356      
+10    installment_commitment         ***         1          0.1245      
+Significant Features:
+--------------------------------------------------------------------------------
+1. checking_status_A14 [T]
+2. duration [T]
+3. credit_history_A34 [T]
+4. other_payment_plans_A143 
+5. employment_A72 
+6. employment_A75 
+7. housing_A153 
+8. purpose_A49 
+9. housing_A152 [T]
+10. installment_commitment 
+11. credit_amount [T]
+12. personal_status_A93 
+13. employment_A73 
+14. num_dependents 
+15. telephone_A192 
+16. checking_status_A12 
+17. purpose_A43 
+18. credit_history_A33 
+19. purpose_A46 
+20. credit_history_A32 
+21. property_magnitude_A124 
