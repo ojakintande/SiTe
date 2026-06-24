@@ -34,14 +34,13 @@ To integrate SiTe into your own interpretability pipeline:
 2.  **Dependencies:** Install necessary statistical libraries:
 ```r
     install.packages(c("tidyverse", "SHAPforxgboost", "stats"))
-    ```
+```
 3.  **Audit:** Run the SiTe significance test:
 ```r
     source("scripts/site_engine.R")
     site_results <- calculate_site_significance(model, data, alpha = 0.05)
-    ```
-#--------------------------------------------------------------------------
-
+```
+#
 ## 6. Citation
 This work is currently under review for **NeurIPS 2026**. Please cite as:
 > [Awaiting official proceedings information]
